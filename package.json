@@ -1,0 +1,19 @@
+{
+  "name": "ns-sax",
+  "version": "0.0.1",
+  "author": "Heaveria",
+  "description": "SAX parsing of XML dump files for NationStates",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "npm run build && jest --coverage",
+    "build": "tsc",
+    "start": "tsc && test.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
